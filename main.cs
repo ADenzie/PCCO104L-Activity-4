@@ -10,7 +10,8 @@ class Program
 
         while (true)
         {
-            Console.WriteLine("Enter something: ");
+            Console.WriteLine();
+            Console.Write("Enter something: ");
             userInput = Console.ReadLine();
 
             if (userInput == "exit")
